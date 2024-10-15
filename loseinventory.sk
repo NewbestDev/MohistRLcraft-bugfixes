@@ -1,0 +1,11 @@
+on death of player:
+	set {drop} to victim's location
+		
+
+on player respawn:
+	set block at location at player's location to chest
+	set {_chest} to the block at player's location
+	set the block behind {_chest}'s location to chest
+	loop all items in player's inventory:
+		add loop-item to inventory of {_chest}
+	clear player's inventory	
