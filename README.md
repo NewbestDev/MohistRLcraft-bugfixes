@@ -10,4 +10,4 @@ Fortunately, using skript I have made a script similar to plugins like the grave
 
 /SOUND FIX\
 ![image](https://github.com/user-attachments/assets/8cf94a67-fa5a-4bc0-95b1-93a7ebe789bd)
-Change the Hurt Threshold to 1.0 in the config.
+Change the Hurt Threshold to 0.0 in the config.
